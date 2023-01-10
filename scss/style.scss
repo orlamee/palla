@@ -1,0 +1,16 @@
+@use 'custom';
+
+//imports the components
+@use'components/animations';
+@use'components/buttons';
+@use'components/mixing';
+@use'components/typography';
+@use'components/layout';
+
+//import sections
+@use'sections/product';
+@use'sections/template';
+@use'sections/blog.scss';
+@use'sections/pricing.scss';
+@use'sections/header';
+@use'sections/services';

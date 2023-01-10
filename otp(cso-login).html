@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+        <!-- icons used -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+</head>
+
+<body>
+      <!-- Comapny-logo section -->
+    <!-- Page-body -->
+    <div class="container-logo">
+      <div class="logo">
+        <h1 class="h1">scale</h1>
+        <span class="parent-ct">
+          <h2 class="h2  first">strengthening</h2>
+          <h2 class="h2 second">civil advocacy and</h2>
+          <h2 class="h2 third">local engagment</h2>
+        </span>
+      </div>
+    </div>
+
+    <div class="container-fluid-otp">
+      <form action="" method="get">
+        <h3 class="h3 text-center mb-2 header-three-new">Setup a new password</h3>
+        <p class="lead text-center light-text-otp">Enter a new password for your account</p>
+        <div class="container">
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label fourthLabel">Email address</label>
+            <input type="email" class="form-control my-control" id="formGroupExampleInputs" required>
+          </div>
+
+          <div class="mb-3 second-label input-boxed">
+            <label for="formGroupExampleInput" class="form-label fivthLabel">Password</label>
+            <input type="password" class="form-control" id="myInput" required> 
+            <!-- javascript functions  -->
+            <span class="eye" onclick="myFunction()">
+              <i id="hide1" class="uil uil-eye move-rt"></i>
+              <i id="hide2" class="uil uil-eye-slash move-rt"></i>
+            </span>
+            <p class="lead text-start mx-2 light-text-new">
+              Must contain 8+ characters with at least 1 number
+            </p>
+          </div> 
+          <div class="d-flex justify-content-between">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="Remember-me" id="flexCheckDefault" required>
+              <label class="form-check-label sixthLabel-1" for="flexCheckDefault">
+                Remember Information
+              </label>
+            </div>
+            <div>
+              <a class="same-new" href="./otp(frgtpass).html">forgot password</a>
+            </div>
+          </div>
+          <button type="submit" class="btn secondName-2 change btn-primary w-100 mt-4 btn-size">Sign in</button>
+
+          <p class="lead mt-2 text-start light-text-new">
+            If you do not have an account yet, you can <a class="same" href="#">Signup here</a>
+          </p>
+        </div>
+        <p class="section-paragraph">or</p>
+
+        <div class="btn-grouping">
+          <button class="w-100 mt-2 btn btn-1 btn-reset">
+            <div class="img-st">
+              <img
+                src="./images/google.svg"
+                alt="Google icon used in a button"
+              />
+            </div>
+            Login With Google
+            <iconify-icon icon="material-symbols:arrow-right-alt" class="iconify-top" style="color: white;"></iconify-icon>
+          </button>
+      </form>
+
+    </div>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="./assets/vendors/js/show.js"></script>
+</body>  
+
+</html>

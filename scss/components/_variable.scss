@@ -1,0 +1,23 @@
+@use"../custom"as*;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&display=swap');
+$none: 0;
+$boxDefault: border-box;
+$fontDefault: 'Outfit', sans-serif;
+$bodyBackground: rgb(235, 237, 245);
+$link-colors: #2AA274;
+$link-colors-hover: #4dbe93;
+$logo-color: #1D9165;
+$signInBtnColor: #186D4C;
+$google-auth-color: #4285F4;
+$theOrwidthColor: #3F3F46;
+$DefautFontSize: 16px;
+$header-three: 36px;
+$transition: ease-in all 2s;
+* {
+    margin: $none;
+    padding: $none;
+    box-sizing: $boxDefault;
+    font-family: $fontDefault;
+    scroll-behavior: smooth;
+}
+

@@ -1,0 +1,78 @@
+@use"../custom"as*;
+@use"../components/variable"as*;
+
+.header-three{
+font-size: $header-three;
+border: none;
+margin: 5px 0 0 0;
+color: #18181B;
+letter-spacing: -2px;
+}
+.header-three-new{
+    font-size: 36px;
+}
+.header-three-set{
+    margin-top: -50px;
+}
+.frame-set{
+    margin-bottom: 100px;
+}
+.firstName,.secondName,.thirdLabel,.fourthLabel,.fivthLabel{
+    border: none;
+    font-size: 14px;
+    color: #3F3F46;
+}
+.sixthLabel{
+font-size: 12px;
+}
+.sixthLabel-1{
+    font-size: 12px;
+    color: #51525C;;
+    }
+.btn-size,.btn-grouping{
+    font-size: 16px;
+}
+.btn-reset{
+    color: #ffffff;
+    background: $google-auth-color;
+}
+.btn-reset:hover{
+    color: #ffffff;
+    background: #699ff7;
+}
+a.same{
+    color: #2EA275;
+    text-decoration: none;
+    font-weight: 500;
+}
+a.same:hover,a.same-new:hover{
+    color: #43a17d;   
+}
+a.same-new{
+    font-size: 14px;
+    text-decoration: none;
+}
+.secondName{
+    color: #18181B;
+}
+h5.card-title{
+    font-size: 14px;
+}
+@media (max-width:600px) {
+    .header-three{
+        font-size: 30px;
+    }
+    .header-three-new{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:400px) {
+ .header-three-new{
+    font-size: 28px;
+}
+.header-three{
+    font-size: 28px;
+}
+}
+

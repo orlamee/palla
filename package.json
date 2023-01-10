@@ -1,0 +1,24 @@
+{
+  "name": "second-project",
+  "version": "1.0.0",
+  "description": "scale projects",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Scale",
+    "version-5"
+  ],
+  "author": "Afamefuna Promise",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.2.2",
+    "postcss-cli": "^10.0.0"
+  }
+}
+ 

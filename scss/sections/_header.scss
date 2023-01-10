@@ -1,0 +1,113 @@
+@use"../custom"as*;
+@use"../components/variable"as*;
+
+.container-logo{
+    border: none;
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-logo>.logo{
+    border: none;
+    height: 58px;
+    color: #1D9165;
+} 
+.container-logo>.logo h1{
+    border: none;
+    display: inline-block;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 200;
+    letter-spacing: -1px;
+    color: $logo-color;
+}
+.container-logo>.logo h1::after{
+    content: '';
+    bottom: 2px;
+    left: 0;
+    width: 114px;
+    height: 2.4px;
+    position: absolute;
+    background: $logo-color;
+}
+.container-logo>.logo h1+.parent-ct{
+    border: none;
+    color: $logo-color;
+    display: inline-block;
+    transform: translateY(8px);
+}
+.parent-ct>.first,.second,.third{
+    display: flex;
+    font-size: 0.69rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 0;
+    color: $logo-color;
+}
+.container-fluid{
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+}
+.container-fluid-otp{ 
+    height: calc(100vh - 58px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+}
+.container-logo>.logo.services{
+    border: none;
+    height: 90px;
+    color: #1D9165;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+} 
+.move-right{
+    border: 1px solid red;
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    
+}
+.container-logo>.logo.services h1{
+    border: none;
+    display: inline-block;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 200;
+    letter-spacing: -1px;
+    color: $logo-color;
+}
+.container-logo>.logo.services h1::after{
+    content: '';
+    bottom: 2px;
+    left: 0;
+    width: 114px;
+    height: 2.4px;
+    position: absolute;
+    background: $logo-color;
+}
+.container-logo>.logo.services h1+.parent-ct{
+    border: none;
+    color: $logo-color;
+    display: inline-block;
+    transform: translateY(0px);
+}
+.container-fluid-services{ 
+    height: calc(100vh - 90px);
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.outer-container-fluid{
+    border-bottom: 1px solid red;
+    width: 100%;
+}

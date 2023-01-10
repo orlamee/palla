@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+        <!-- icons used -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+</head>
+
+<body>
+      <!-- Comapny-logo section -->
+    <!-- Page-body -->
+    <div class="container-logo">
+      <div class="logo">
+        <h1 class="h1">scale</h1>
+        <span class="parent-ct">
+          <h2 class="h2  first">strengthening</h2>
+          <h2 class="h2 second">civil advocacy and</h2>
+          <h2 class="h2 third">local engagment</h2>
+        </span>
+      </div>
+    </div>
+
+    <div class="container-fluid-otp">
+      <form action="" method="get">
+        <h3 class="h3 text-center mb-2 header-three-new">Setup a new password</h3>
+        <p class="lead text-center light-text-otp">Enter a new password for your account</p>
+        <div class="container">
+          <div class="mb-3 second-label input-boxed">
+            <label for="formGroupExampleInput" class="form-label fivthLabel">New Password</label>
+            <input type="password" class="form-control" id="myInput">
+            <!-- javascript functions  -->
+            <span class="eye" onclick="myFunction()">
+              <i id="hide1" class="uil uil-eye move-rt"></i>
+              <i id="hide2" class="uil uil-eye-slash move-rt"></i>
+            </span>
+            <p class="lead text-start mx-2 light-text-new">
+              must contain 8+ characters with at least 1 number
+            </p>
+          </div>
+
+          <div class="mb-3 second-label input-boxed">
+            <label for="formGroupExampleInput" class="form-label fivthLabel">Confirm Password</label>
+            <input type="password" class="form-control border-danger error-class-2" id="myInput" required>
+            <!-- javascript functions  -->
+            <span class="eye" onclick="myFunction()">
+              <i id="hide1" class="uil uil-eye move-rt"></i>
+              <i id="hide2" class="uil uil-eye-slash move-rt"></i>
+            </span>
+            <p class="lead text-start mx-2 light-text-new error-class">
+              Passwords do not match. Check and try again
+            </p>
+          </div> 
+          <a href="./otp(paswrdsetup).html" class="btn secondName-2 change btn-primary w-100 mt-2 d-inline-block btn-size">Confirm new password</a>
+        </div>
+      </form>
+
+    </div>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="./assets/vendors/js/show.js"></script>
+</body>  
+
+</html>

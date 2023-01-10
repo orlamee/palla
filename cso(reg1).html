@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+        <!-- icons used -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+</head>
+
+<body>
+      <!-- Comapny-logo section -->
+    <!-- Page-body -->
+    <div class="container-logo">
+      <div class="logo">
+        <h1 class="h1">scale</h1>
+        <span class="parent-ct">
+          <h2 class="h2  first">strengthening</h2>
+          <h2 class="h2 second">civil advocacy and</h2>
+          <h2 class="h2 third">local engagment</h2>
+        </span>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <form action="" method="get">
+        <h3 class="h3 text-center mb-2 header-three">WELCOME to SCALE</h3>
+        <p class="lead text-center light-text">Let's get to know you</p>
+
+        <div class="row">
+          <div class="col">
+            <label for="firstName" class="firstName">First Name</label>
+            <input type="text" class="form-control" aria-label="First name" required>
+          </div>
+          <div class="col">
+            <label for="secondName" class="secondName">Last Name</label>
+            <input type="text" class="form-control" aria-label="Last name" required>
+          </div>
+        </div>
+
+        <div class="mb-3 second-label">
+          <label for="formGroupExampleInput" class="form-label thirdLabel">Name of Organization</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="formGroupExampleInputs" class="form-label fourthLabel">Email address</label>
+          <input type="email" class="form-control my-control" id="formGroupExampleInputs" required>
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text num-set" id="inputGroup-sizing-default">+234</span>
+          <input type="tel" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>
+        </div>
+
+        <div class="mb-3 second-label input-boxed">
+          <label for="formGroupExampleInput" class="form-label fivthLabel">Create a Password</label>
+          <input type="password" class="form-control" id="myInput">
+          <!-- javascript functions  -->
+          <span class="eye" onclick="myFunction()">
+            <i id="hide1" class="uil uil-eye move-rt"></i>
+            <i id="hide2" class="uil uil-eye-slash move-rt"></i>
+          </span>
+          <p class="lead text-start  mx-4 light-text-new">
+            must contain 8+ characters with at least 1 number
+          </p>
+        </div>
+
+        <div class="form-check outset">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+          <label class="form-check-label sixthLabel" for="flexCheckDefault">
+            i have read and i agree to the <a href="./index.html" class="same" target="_blank">Privacy Policy</a> and <a href="#" 
+           class="same" target="_blank">Terms of Conditions</a> 
+          </label>
+        </div>
+        <button type="submit" class="btn secondName-2 btn-primary w-100 mt-4 btn-size">Register</button>
+        <div>
+          <p class="text-center mt-3 outside-new">if you have an account you can <a href="./otp(cso-login).html" class="same" target="_blank">Log in here</a></p>
+        </div>
+
+        <p class="section-paragraph">or</p>
+
+        <button type="submit" class="btn border border-1 secondName-2 reset w-100 mt-4 btn-size"><img class="reset" src="./images/google.svg" alt=""><span>Sign up with Google</span></button>
+
+        <button type="submit" class="btn border border-1 secondName-2 reset w-100 mt-4 mb-4 btn-size"> <img class="reset" src="./images/icons8-facebook.svg" alt=""><span class="shift">Sign up with Facebook</span></button>
+
+      </form>
+
+    </div>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="./assets/vendors/js/show.js"></script>
+</body>  
+
+</html>
